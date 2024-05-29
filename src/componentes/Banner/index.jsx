@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import { styled } from "styled-components"
 
 const FigureEstilizada = styled.figure`
     background-image: ${props => `url(${props.$backgroundImage})`};
@@ -10,7 +10,7 @@ const FigureEstilizada = styled.figure`
     margin: 0;
     border-radius: 20px;
     max-width: 100%;
-    background-size:cover;
+    background-size: cover;
 `
 
 const TituloEstilizado = styled.h1`
@@ -21,8 +21,6 @@ const TituloEstilizado = styled.h1`
     max-width: 300px;
     padding: 0 64px;
 `
-
-
 
 const Banner = ({ texto, backgroundImage }) => {
     return (<FigureEstilizada $backgroundImage={backgroundImage}>

@@ -1,5 +1,7 @@
-import styled from "styled-components"
+
+import { styled } from "styled-components"
 import Titulo from "../../Titulo"
+
 import fotos from './fotos-populares.json'
 
 const ColunaFotos = styled.section`
@@ -24,7 +26,7 @@ const Botao = styled.button`
     cursor: pointer;
     width: 100%;
     margin-top: 16px;
-`
+`;
 
 const Populares = () => {
     return (
