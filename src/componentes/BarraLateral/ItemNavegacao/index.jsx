@@ -1,7 +1,8 @@
-import styled from "styled-components"
+
+import { styled } from "styled-components"
 
 const ItemListaEstilizado = styled.li`
-    font-size:24px;
+    font-size: 24px;
     line-height: 29px;
     margin-bottom: 30px;
     cursor: pointer;
